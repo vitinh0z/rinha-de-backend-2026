@@ -1,0 +1,7 @@
+{
+    "participants": ["Vitor"],
+    "social": ["https://github.com/vitinh0z"],
+    "source-code-repo": "https://github.com/vitinh0z/rinha-de-backend-2026",
+    "stack": ["java", "spring-boot", "postgresql", "pgvector", "nginx"],
+    "open_to_work": false
+}
