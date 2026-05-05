@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/fraud_db}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+    hikari:
+      maximum-pool-size: 2
+      minimum-idle: 2
+      idle-timeout: 30000
+      pool-name: HikariPool-Fraud
+
+server:
+  port: 8080
+
+spring.main.banner-mode: "off"
+spring.jmx.enabled: false
