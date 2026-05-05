@@ -20,54 +20,21 @@ services:
 
   api1:
     image: vitinh0z/rinha-fraud:latest
-    environment:
-      - DB_URL=jdbc:postgresql://db:5432/rinha
-      - DB_USER=rinha
-      - DB_PASSWORD=rinha
-    depends_on:
-      db:
-        condition: service_healthy
     deploy:
       resources:
         limits:
-          cpus: '0.3'
-          memory: 90M
+          cpus: '0.45'
+          memory: 150M
     networks:
       - rinha-net
 
   api2:
     image: vitinh0z/rinha-fraud:latest
-    environment:
-      - DB_URL=jdbc:postgresql://db:5432/rinha
-      - DB_USER=rinha
-      - DB_PASSWORD=rinha
-    depends_on:
-      db:
-        condition: service_healthy
     deploy:
       resources:
         limits:
-          cpus: '0.3'
-          memory: 90M
-    networks:
-      - rinha-net
-
-  db:
-    image: ankane/pgvector:latest
-    environment:
-      - POSTGRES_USER=rinha
-      - POSTGRES_PASSWORD=rinha
-      - POSTGRES_DB=rinha
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U rinha"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
-    deploy:
-      resources:
-        limits:
-          cpus: '0.3'
-          memory: 140M
+          cpus: '0.45'
+          memory: 150M
     networks:
       - rinha-net
 

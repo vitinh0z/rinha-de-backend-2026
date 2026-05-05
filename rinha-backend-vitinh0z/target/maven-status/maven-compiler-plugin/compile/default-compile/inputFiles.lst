@@ -1,0 +1,14 @@
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\config\StartupDataLoader.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\config\VectorIndex.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\controller\FraudController.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\FraudApplication.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\model\Customer.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\model\FraudRequest.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\model\FraudResponse.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\model\LastTransaction.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\model\Merchant.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\model\Terminal.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\model\Transaction.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\repository\VectorRepository.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\service\FraudService.java
+C:\Users\T2-OKIAR\IdeaProjects\rinha-de-backend-2026\rinha-backend-vitinh0z\src\main\java\com\rinha\fraud\vector\Vectorizer.java

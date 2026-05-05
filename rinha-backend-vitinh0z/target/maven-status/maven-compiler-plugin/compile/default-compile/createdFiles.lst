@@ -1,0 +1,14 @@
+com\rinha\fraud\service\FraudService.class
+com\rinha\fraud\model\FraudResponse.class
+com\rinha\fraud\model\Terminal.class
+com\rinha\fraud\repository\VectorRepository.class
+com\rinha\fraud\FraudApplication.class
+com\rinha\fraud\vector\Vectorizer.class
+com\rinha\fraud\config\StartupDataLoader.class
+com\rinha\fraud\config\VectorIndex.class
+com\rinha\fraud\model\LastTransaction.class
+com\rinha\fraud\controller\FraudController.class
+com\rinha\fraud\model\FraudRequest.class
+com\rinha\fraud\model\Merchant.class
+com\rinha\fraud\model\Customer.class
+com\rinha\fraud\model\Transaction.class

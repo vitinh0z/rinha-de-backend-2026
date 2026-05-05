@@ -1,17 +1,19 @@
 package com.rinha.fraud.repository;
 
-import lombok.RequiredArgsConstructor;
-import org.springframework.jdbc.core.JdbcTemplate;
+import com.rinha.fraud.config.VectorIndex;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public class VectorRepository {
 
-    private final JdbcTemplate jdbcTemplate;
+    private final VectorIndex vectorIndex;
 
-    public VectorRepository(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = jdbcTemplate;
+    public VectorRepository(VectorIndex vectorIndex) {
+        this.vectorIndex = vectorIndex;
     }
 
-    // TODO: Use JdbcTemplate for vector search
+    public double findFraudScore(float[] query) {
+        // TODO: Return double with fraud score
+        return 0.0;
+    }
 }

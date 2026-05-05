@@ -2,32 +2,26 @@ package com.rinha.fraud.controller;
 
 import com.rinha.fraud.model.FraudRequest;
 import com.rinha.fraud.model.FraudResponse;
-import com.rinha.fraud.repository.VectorRepository;
-import com.rinha.fraud.vector.Vectorizer;
-import lombok.RequiredArgsConstructor;
+import com.rinha.fraud.service.FraudService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class FraudController {
 
-    private final Vectorizer vectorizer;
-    private final VectorRepository vectorRepository;
+    private final FraudService fraudService;
 
-    public FraudController(Vectorizer vectorizer, VectorRepository vectorRepository) {
-        this.vectorizer = vectorizer;
-        this.vectorRepository = vectorRepository;
+    public FraudController(FraudService fraudService) {
+        this.fraudService = fraudService;
     }
 
     @GetMapping("/ready")
     public ResponseEntity<Void> ready() {
-        // TODO: Return 200 OK
-        return null;
+        return ResponseEntity.ok().build();
     }
 
     @PostMapping("/fraud-score")
     public ResponseEntity<FraudResponse> fraudScore(@RequestBody FraudRequest request) {
-        // TODO: Call vectorizer and vectorRepository directly
-        return null;
+        return ResponseEntity.ok(fraudService.evaluate(request));
     }
 }
