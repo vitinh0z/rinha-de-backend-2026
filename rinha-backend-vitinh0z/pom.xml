@@ -11,10 +11,10 @@
     <groupId>com.rinha</groupId>
     <artifactId>fraud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>fraud</name>
+    <name>Fraud Detected</name>
     <description>Rinha de Backend 2026 - Fraud Detection</description>
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
     </properties>
     <dependencies>
         <dependency>
